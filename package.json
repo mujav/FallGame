@@ -1,0 +1,14 @@
+{
+  "name": "fallgame",
+  "version": "1.0.0",
+  "description": "fall game ",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Meshael",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

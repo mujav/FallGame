@@ -1,0 +1,89 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+#game {
+    width: 400px;
+    height: 720px;
+    margin: auto;
+    background-color: rgb(33, 11, 110);
+}
+
+#character {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    top: 440px;
+    left: 190px;
+    z-index: 10000000;
+}
+
+.block{
+    
+    width: 400px;
+    height: 20px;
+    background-color: black;
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+    
+}
+
+.hole {
+    width: 30px;
+    height: 20px;
+    background-color: rgb(33, 11, 110);
+    position: relative;
+    top: 100px;
+    margin-top: -20px;
+}
+
+
+.btn {
+    width: 10%;
+    font-size:larger;
+    color: white;
+    height: 50px;
+    background-color: rgb(61, 121, 231);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#start {
+    display: left;
+    margin: 5px 1138px 5px 5px ;
+}
+
+#speedUP {
+    position: relative;
+}
+
+
+#score {
+    
+    width: 390px;
+    height: 30px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: large;
+    text-align: center;
+    color: black;
+    font-family:Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: coral;
+    
+}
+#divider {
+    width: 400px;
+    height: 20px;
+    margin: auto;
+    background-color: moccasin;
+    text-align: center;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
